@@ -1,0 +1,6 @@
+{
+  "name": "LearnFast",
+  "description": "An AI assistant learning platform for secondary school students in Malawi, aligned with JCE and MSCE curricula. Includes specialized Tutor, Homework Helper, and Parent Report agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

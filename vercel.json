@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "learnfast-malawi",
+  "cleanUrls": true,
+  "framework": "vite",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "server.ts font",
+      "headers": { "cache-control": "no-cache" }
+    },
+    {
+      "src": "/assets/(.*)",
+      "headers": { "cache-control": "public, max-age=31536000, immutable" },
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
